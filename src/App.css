@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
+.menu{
+    display: flex;
+    width: 33%;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
+.numbers{
+    text-align: center;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.num{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
 }
